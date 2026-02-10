@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+}
+
+header div {
+    display: flex;
+    flex-direction: row;
+}
+
+header ul{
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+
+}
+
+header ul li:hover {
+    border-bottom: solid 2px ;
+}
