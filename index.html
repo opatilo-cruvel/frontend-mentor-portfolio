@@ -1,15 +1,16 @@
 <!DOCTYPE html>
-<html lang="PT-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Front-end Portfolio</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
-    <header>
-        <div>
-            <div>
+    <header class="container">
+        
+            <div class="logo">
                 <h1>Paulo Vinicius</h1>
                 <p>Projects from <a href="https://www.frontendmentor.io/home">Front-end Mentor</a></p>
             </div>
@@ -18,16 +19,23 @@
                 <li>Projects</li>
                 <li>Contact</li>
             </ul>
-        </div>
+        
     </header>
-    <section>
-        <div>
-            <h1>Front-end Projects</h1>
-            <p>This portfolio was developed to document my progress in front-end skills, solving challanges on the <a href="https://www.frontendmentor.io/home">Fron-end Mentor</a> website</p>
+
+    <section class="container content-body">
+        <div class="texts">
+            <h1 class="text-title">Front-end Projects</h1>
+            <p class="text-content">This portfolio was developed to document my progress in front-end skills through a collection of projects created as part of my learning journey.
+By solving challenges from <a href="https://www.frontendmentor.io/home">Frontend Mentor</a>, I apply HTML, CSS, and JavaScript to build responsive and user-friendly interfaces.</p>
             <div>
-                <Button>View Projects</Button>
+                <Button href="#projects" class="btn">View Projects <i class="fa-solid fa-chevron-right"></i></Button>
             </div>
         </div>
     </section>
+
+    <section class="container projects" id="projects">
+
+    </section>
+    
 </body>
 </html>
