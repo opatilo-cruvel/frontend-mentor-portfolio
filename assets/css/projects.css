@@ -1,0 +1,16 @@
+
+.projects {
+    
+}
+
+.project-cards {
+    margin: 0;
+    display: flex;
+}
+
+.card {
+    border: solid 1px;
+    width: 280px;
+    height: 350px;
+    margin: 10px;
+}
