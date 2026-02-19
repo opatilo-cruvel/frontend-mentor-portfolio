@@ -2,46 +2,61 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <title>Paulo Vinicius | Front-end Developer</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Front-end Portfolio</title>
+    
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
+
 <body>
-    <header class="container">
-        
-            <div class="logo">
-                <h1>Paulo Vinicius</h1>
-                <p>Projects from <a href="https://www.frontendmentor.io/home">Front-end Mentor</a></p>
-            </div>
-            <ul>
-                <li>Home</li>
-                <li>Projects</li>
-                <li>Contact</li>
-            </ul>
-        
-    </header>
 
-    <section class="container content-body">
-        <div class="texts">
-            <h1 class="text-title">Front-end Projects</h1>
-            <p class="text-content">This portfolio was developed to document my progress in front-end skills through a collection of projects created as part of my learning journey.
-By solving challenges from <a href="https://www.frontendmentor.io/home">Frontend Mentor</a>, I apply HTML, CSS, and JavaScript to build responsive and user-friendly interfaces.</p>
+<header class="container header">
+    <div class="logo">
+        <h1>Paulo Vinicius</h1>
+        <p>Front-end Developer</p>
+    </div>
 
-            <div>
-                <a class="btn" href="./pages/projects.html">View Projects <i class="fa-solid fa-chevron-right"></i></a>
-            </div>
+    <nav>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="hero container">
+    <div class="hero-text">
+        <h2>Building clean & responsive interfaces</h2>
+        <p>
+            This portfolio documents my progress in front-end development.
+            I solve challenges from Frontend Mentor using HTML, CSS and JavaScript.
+        </p>
+
+        <a class="btn" href="./pages/projects.html">
+            View Projects <i class="fa-solid fa-arrow-right"></i>
+        </a>
+    </div>
+</section>
+
+<section class="projects container" id="projects">
+    <h2>My Projects</h2>
+
+    <div class="project-cards">
+        <div class="card">
+            <h3>Project Title</h3>
+            <p>Short description of the project.</p>
+            <a href="#">View Project</a>
         </div>
-    </section>
+    </div>
+</section>
 
-    <section class="container projects" id="projects">
-            <h1>Projetos</h1>
-            <div class="project-cards container">
-                <div class="card">
-                    
-                </div>
-            </div>
-    </section>
-    
+<footer>
+    <p>© 2026 Paulo Vinicius | Front-end Developer</p>
+</footer>
+
 </body>
 </html>
