@@ -2,63 +2,109 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Paulo Vinicius | Projects</title>
-    <link rel="stylesheet" href="../assets/css/projects.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS Global -->
     <link rel="stylesheet" href="../assets/css/style.css">
+
+    <!-- CSS Projects (depois do global) -->
+    <link rel="stylesheet" href="../assets/css/projects.css">
+
+    <!-- Font Awesome (se quiser ícones depois) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 
 <body>
-    <section class="container projects" id="projects">
-        <h1>Projects</h1>
-        <div class="project-cards">
 
-            <!-- Projeto 1 -->
-            <div class="card">
-                <div class="card-image">
-                    <img src="../assets/images/project1.jpg" alt="Frontend Mentor Challenge">
-                </div>
-                <div class="card-content">
-                    <h3>Frontend Mentor Challenge</h3>
-                    <p>
-                        Responsive landing page built with HTML and CSS.
-                        Focused on layout and mobile-first design.
-                    </p>
-                    <div class="tech">
-                        <span>HTML</span>
-                        <span>CSS</span>
-                        <span>JavaScript</span>
-                    </div>
-                    <div class="card-buttons">
-                        <a href="#" target="_blank" class="btn-small">Live</a>
-                        <a href="#" target="_blank" class="btn-outline">GitHub</a>
-                    </div>
-                </div>
+<header class="container header">
+    <div class="logo">
+        <h1>Paulo Vinicius</h1>
+        <p>Front-end Developer</p>
+    </div>
+
+    <nav>
+        <ul class="nav-links">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="container projects" id="projects">
+
+    <div class="projects-header">
+        <h1>My Projects</h1>
+        <p>
+            Some of the challenges and applications I built to improve my front-end skills.
+        </p>
+    </div>
+
+    <div class="project-cards">
+
+        <!-- Projeto 1 -->
+        <div class="card">
+            <div class="card-image">
+                <img src="../assets/images/project1.jpg" alt="Frontend Mentor Challenge">
             </div>
 
-            <!-- Projeto 2 -->
-            <div class="card">
-                <div class="card-image">
-                    <img src="../assets/images/project2.jpg" alt="Todo App">
+            <div class="card-content">
+                <h3>Frontend Mentor Challenge</h3>
+
+                <p>
+                    Responsive landing page built with HTML and CSS.
+                    Focused on layout structure and mobile-first strategy.
+                </p>
+
+                <div class="tech">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
                 </div>
-                <div class="card-content">
-                    <h3>Todo App</h3>
-                    <p>
-                        Task management app with local storage and dynamic DOM manipulation.
-                    </p>
-                    <div class="tech">
-                        <span>HTML</span>
-                        <span>CSS</span>
-                        <span>JavaScript</span>
-                    </div>
-                    <div class="card-buttons">
-                        <a href="#" target="_blank" class="btn-small">Live</a>
-                        <a href="#" target="_blank" class="btn-outline">GitHub</a>
-                    </div>
+
+                <div class="card-buttons">
+                    <a href="#" target="_blank" class="btn-small">Live</a>
+                    <a href="#" target="_blank" class="btn-outline">GitHub</a>
                 </div>
             </div>
-
         </div>
-    </section>
+
+        <!-- Projeto 2 -->
+        <div class="card">
+            <div class="card-image">
+                <img src="../assets/images/project2.jpg" alt="Todo App">
+            </div>
+
+            <div class="card-content">
+                <h3>Todo App</h3>
+
+                <p>
+                    Task manager with localStorage, dynamic DOM manipulation
+                    and filtering system.
+                </p>
+
+                <div class="tech">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+
+                <div class="card-buttons">
+                    <a href="#" target="_blank" class="btn-small">Live</a>
+                    <a href="#" target="_blank" class="btn-outline">GitHub</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Paulo Vinicius | Front-end Developer</p>
+</footer>
+
 </body>
 </html>
