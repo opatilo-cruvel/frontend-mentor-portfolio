@@ -18,7 +18,11 @@
 
 .content-homepage {
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+
 
 .content-homepage img{
     max-width: 700px;
